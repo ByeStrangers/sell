@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8090
 spring:
   application:
     name: sell
@@ -8,6 +8,24 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false
     username: root
     password: 123456
+  #thymeleaf模板配置
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+    #严格执行H5标准
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+  #content-type: text/html
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
 
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
@@ -22,6 +40,7 @@ pagehelper:
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
+
 
 
 
