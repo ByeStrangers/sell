@@ -5,7 +5,7 @@
   "homeInfo": {
     "title": "首页",
     "icon": "fa fa-home",
-    "href": "page/welcome-1"
+    "href": "page/welcome-2"
   },
   "logoInfo": {
     "title": "LAYUI MINI",
@@ -18,47 +18,9 @@
       "icon": "fa fa-address-book",
       "child": [
         {
-          "title": "主页模板",
-          "href": "",
-          "icon": "fa fa-home",
-          "target": "_self",
-          "child": [
-            {
-              "title": "主页一",
-              "href": "page/welcome-1",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            },
-            {
-              "title": "主页二",
-              "href": "page/welcome-2",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            },
-            {
-              "title": "主页三",
-              "href": "page/welcome-3",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "菜单管理",
-          "href": "page/menu",
-          "icon": "fa fa-window-maximize",
-          "target": "_self"
-        },
-        {
           "title": "系统设置",
           "href": "page/setting",
           "icon": "fa fa-gears",
-          "target": "_self"
-        },
-        {
-          "title": "表格示例",
-          "href": "page/table",
-          "icon": "fa fa-file-text",
           "target": "_self"
         },
         {
@@ -92,144 +54,8 @@
               "href": "page/login-1",
               "icon": "fa fa-stumbleupon-circle",
               "target": "_blank"
-            },
-            {
-              "title": "登录-2",
-              "href": "page/login-2",
-              "icon": "fa fa-viacoin",
-              "target": "_blank"
             }
           ]
-        },
-        {
-          "title": "异常页面",
-          "href": "",
-          "icon": "fa fa-home",
-          "target": "_self",
-          "child": [
-            {
-              "title": "404页面",
-              "href": "page/404",
-              "icon": "fa fa-hourglass-end",
-              "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "其它界面",
-          "href": "",
-          "icon": "fa fa-snowflake-o",
-          "target": "",
-          "child": [
-            {
-              "title": "按钮示例",
-              "href": "page/button",
-              "icon": "fa fa-snowflake-o",
-              "target": "_self"
-            },
-            {
-              "title": "弹出层",
-              "href": "page/layer",
-              "icon": "fa fa-shield",
-              "target": "_self"
-            }
-          ]
-        }
-      ]
-    },
-    "component": {
-      "title": "组件管理",
-      "icon": "fa fa-lemon-o",
-      "child": [
-        {
-          "title": "图标列表",
-          "href": "page/icon",
-          "icon": "fa fa-dot-circle-o",
-          "target": "_self"
-        },
-        {
-          "title": "图标选择",
-          "href": "page/icon-picker",
-          "icon": "fa fa-adn",
-          "target": "_self"
-        },
-        {
-          "title": "颜色选择",
-          "href": "page/color-select",
-          "icon": "fa fa-dashboard",
-          "target": "_self"
-        },
-        {
-          "title": "下拉选择",
-          "href": "page/table-select",
-          "icon": "fa fa-angle-double-down",
-          "target": "_self"
-        },
-        {
-          "title": "文件上传",
-          "href": "page/upload",
-          "icon": "fa fa-arrow-up",
-          "target": "_self"
-        },
-        {
-          "title": "富文本编辑器",
-          "href": "page/editor",
-          "icon": "fa fa-edit",
-          "target": "_self"
-        },
-        {
-          "title": "省市县区选择器",
-          "href": "page/area",
-          "icon": "fa fa-rocket",
-          "target": "_self"
-        }
-      ]
-    },
-    "other": {
-      "title": "其它管理",
-      "icon": "fa fa-slideshare",
-      "child": [
-        {
-          "title": "多级菜单",
-          "href": "",
-          "icon": "fa fa-meetup",
-          "target": "",
-          "child": [
-            {
-              "title": "按钮1",
-              "href": "page/button",
-              "icon": "fa fa-calendar",
-              "target": "_self",
-              "child": [
-                {
-                  "title": "按钮2",
-                  "href": "page/button",
-                  "icon": "fa fa-snowflake-o",
-                  "target": "_self",
-                  "child": [
-                    {
-                      "title": "按钮3",
-                      "href": "page/button",
-                      "icon": "fa fa-snowflake-o",
-                      "target": "_self"
-                    },
-                    {
-                      "title": "表单4",
-                      "href": "page/form",
-                      "icon": "fa fa-calendar",
-                      "target": "_self"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "失效菜单",
-          "href": "page/error",
-          "icon": "fa fa-superpowers",
-          "target": "_self"
         }
       ]
     }
